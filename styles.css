@@ -1,4 +1,5 @@
-﻿:root {
+﻿/* Main colors used across the page */
+:root {
       --bg:      #f7f5f2;
       --surface: #ffffff;
       --text:    #1a1a1a;
@@ -28,9 +29,12 @@
       min-height: 100vh;
     }
 
+    /* Main page layout */
     main {
       flex: 1;
     }
+
+    /* Header styles */
 header {
       background: var(--surface);
       border-bottom: 1px solid var(--border);
@@ -109,6 +113,7 @@ header {
       font-size: 0.75rem;
       font-weight: 700;
     }
+/* View containers */
 article {
       display: none;
     }
@@ -122,6 +127,7 @@ article {
       margin: 0 auto;
       padding: 2rem;
     }
+/* Footer styles */
 footer {
       background: var(--accent2);
       color: #ccc;
@@ -138,6 +144,7 @@ footer {
     footer a:hover {
       text-decoration: underline;
     }
+/* Home view styles */
 .hero {
       background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
       color: #fff;
@@ -203,6 +210,7 @@ footer {
       font-size: 1rem;
       font-weight: 600;
     }
+/* Browse view styles */
 .browse-layout {
       display: grid;
       grid-template-columns: 220px 1fr;
@@ -440,6 +448,7 @@ footer {
       padding: 3rem;
       color: var(--muted);
     }
+/* Single product view styles */
 .breadcrumb {
       font-size: 0.82rem;
       color: var(--muted);
@@ -631,6 +640,7 @@ footer {
     }
 
     .notification.show { display: block; }
+/* Shopping cart styles */
 .cart-table {
       width: 100%;
       border-collapse: collapse;
@@ -753,6 +763,7 @@ footer {
       opacity: 0.4;
       cursor: not-allowed;
     }
+/* About dialog styles */
 dialog {
       border: none;
       border-radius: 12px;
@@ -860,6 +871,7 @@ dialog {
       opacity: 0.5;
       cursor: not-allowed;
     }
+/* Small reusable text styles */
 .section-title {
       font-size: 1.5rem;
       margin-bottom: 0.25rem;
